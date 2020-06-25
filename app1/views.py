@@ -7,3 +7,6 @@ from django.shortcuts import render
 def index(request):
     print('这是第一个视图')
     return HttpResponse("success")
+
+def user(request):
+    print('111')
