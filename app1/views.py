@@ -10,3 +10,6 @@ def index(request):
 
 def user(request):
     print('111')
+
+def login(request):
+    print('第三个视图')
